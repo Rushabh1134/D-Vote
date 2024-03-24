@@ -1,0 +1,21 @@
+.input_box {
+    width: 100%;
+    background-color: #730283;
+    padding: .5rem;
+    border-radius: 2rem;
+}
+
+.input_box input {
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    color: white;
+    padding-inline: .5rem;
+}
+
+.input_box input::placeholder {
+    color: #2d0036;
+    font-weight: 500;
+    text-transform: uppercase;
+}
